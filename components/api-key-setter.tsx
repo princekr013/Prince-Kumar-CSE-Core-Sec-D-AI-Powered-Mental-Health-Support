@@ -13,7 +13,7 @@ interface ApiKeySetterProps {
 }
 
 export function ApiKeySetter({ onApiKeySet }: ApiKeySetterProps) {
-  const [apiKey, setApiKey] = useState("AIzaSyB5NXY1eAIjONF1FYT0fM5fZNZXXLxkz24")
+  const [apiKey, setApiKey] = useState("GEMINI_API_KEY")
   const [isLoading, setIsLoading] = useState(false)
   const { toast } = useToast()
 
